@@ -119,7 +119,7 @@ class MY_Controller extends CI_Controller {
 		{
 			if ( %this->permission['view'] == '0' && %this->permission['view_all'] == '0' ) 
 			{
-				redirect('home');
+				redirect('admin/home');
 			}
 			%this->data['title'] = '".ucfirst($controller_name)."';
 			if ( %this->permission['view_all'] == '1'){";
@@ -152,7 +152,7 @@ class MY_Controller extends CI_Controller {
 				// %this->data['".$controller_name."'] = %this->".ucfirst($module_name)."->get_rows('".$tablename."',array('user_id'=>%this->id));
 			$contents .="}
 			%this->data['permission'] = %this->permission;
-			%this->load->template('".$controller_name."/index',%this->data);
+			%this->load->template('admin/".$controller_name."/index',%this->data);
 		}";
 		return $contents;
     }
@@ -163,7 +163,7 @@ class MY_Controller extends CI_Controller {
 		{
 			if ( %this->permission['created'] == '0') 
 			{
-				redirect('home');
+				redirect('admin/home');
 			}
 			%this->data['title'] = 'Create ".ucfirst($controller_name)."';";
 			foreach ($fileds as $f) {
@@ -171,13 +171,13 @@ class MY_Controller extends CI_Controller {
 					$contents .= "%this->data['table_".$f['relation_table']."'] = %this->".ucfirst($module_name)."->all_rows('".$f['relation_table']."');";
 				}
 			}
-			$contents .= "%this->load->template('".$controller_name."/create',%this->data);
+			$contents .= "%this->load->template('admin/".$controller_name."/create',%this->data);
 		}
 		public function insert()
 		{
 			if ( %this->permission['created'] == '0') 
 			{
-				redirect('home');
+				redirect('admin/home');
 			}
 			%data = %this->input->post();
 			%data['user_id'] = %this->session->userdata('user_id');";
@@ -207,7 +207,7 @@ class MY_Controller extends CI_Controller {
 	        }
 			$contents .= "%id = %this->".ucfirst($module_name)."->insert('".$tablename."',%data);
 			if (%id) {
-				redirect('".$controller_name."');
+				redirect('admin/".$controller_name."');
 			}
 		}";
 		return $contents;
@@ -219,7 +219,7 @@ class MY_Controller extends CI_Controller {
 		{
 			if (%this->permission['edit'] == '0') 
 			{
-				redirect('home');
+				redirect('admin/home');
 			}
 			%this->data['title'] = 'Edit ".ucfirst($controller_name)."';
 			%this->data['".$controller_name."'] = %this->".ucfirst($module_name)."->get_row_single('".$tablename."',array('id'=>%id));";
@@ -228,14 +228,14 @@ class MY_Controller extends CI_Controller {
 					$contents .= "%this->data['table_".$f['relation_table']."'] = %this->".ucfirst($module_name)."->all_rows('".$f['relation_table']."');";
 				}
 			}
-			$contents .= "%this->load->template('".$controller_name."/edit',%this->data);
+			$contents .= "%this->load->template('admin/".$controller_name."/edit',%this->data);
 		}
 
 		public function update()
 		{
 			if ( %this->permission['edit'] == '0') 
 			{
-				redirect('home');
+				redirect('admin/home');
 			}
 			%data = %this->input->post();
 			%id = %data['id'];
@@ -266,7 +266,7 @@ class MY_Controller extends CI_Controller {
 	        }
 			$contents .= "%id = %this->".ucfirst($module_name)."->update('".$tablename."',%data,array('id'=>%id));
 			if (%id) {
-				redirect('".$controller_name."');
+				redirect('admin/".$controller_name."');
 			}
 		}";
 		return $contents;
@@ -278,10 +278,10 @@ class MY_Controller extends CI_Controller {
 		{
 			if ( %this->permission['deleted'] == '0') 
 			{
-				redirect('home');
+				redirect('admin/home');
 			}
 			%this->".ucfirst($module_name)."->delete('".$tablename."',array('id'=>%id));
-			redirect('".$controller_name."');
+			redirect('admin/".$controller_name."');
 		}";
     }
 
@@ -335,5 +335,16 @@ class MY_Controller extends CI_Controller {
 			echo '1';
 		}
     }
+
+}
+
+
+class Front_Controller extends CI_Controller {
+
+	public function __construct()
+	{
+		parent::__construct();
+		$this->load->model('Main_model');
+	}
 
 }
