@@ -112,6 +112,11 @@ class Portfolio extends MY_Controller
 
     public function template($id,$template)
     {
+    	if ($this->input->post()) {
+    		$data = $this->input->post();
+    		$this->Portfolio_model->update('portfolio', $data, array('id' => $id));
+    		redirect('admin/portfolio');
+    	}
     	$this->load->view('admin/portfolio/template'.$template);
     }
 

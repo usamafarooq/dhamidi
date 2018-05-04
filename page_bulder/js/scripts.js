@@ -281,7 +281,9 @@ function downloadLayoutSrc() {
 			["aria-labelledby"],
 			["aria-hidden"],
 			["data-slide-to"],
-			["data-slide"]
+			["data-slide"],
+			["style"],
+			["data-stellar-background-ratio"]
 		]
 	});
 	$("#download-layout").html(formatSrc);
@@ -478,6 +480,9 @@ function saveHtml()
 			{
                         var cpath = window.location.href;
                         cpath = cpath.substring(0, cpath.lastIndexOf("/"));
+                        console.log(webpage)
+                        $('[name="html"]').val(webpage)
+                        $('#template-create').submit()
 			webpage = '<html>\n<head>\n<script type="text/javascript" src="'+cpath+'/js/jquery-2.0.0.min.js"></script>\n<script type="text/javascript" src="'+cpath+'/js/jquery-ui.js"></script>\n<link href="'+cpath+'/css/bootstrap-combined.min.css" rel="stylesheet" media="screen">\n<script type="text/javascript" src="'+cpath+'/js/bootstrap.min.js"></script>\n</head>\n<body>\n'+ webpage +'\n</body>\n</html>'
 			/* FM aka Vegetam Added the function that save the file in the directory Downloads. Work only to Chrome Firefox And IE*/
 			if (navigator.appName =="Microsoft Internet Explorer" && window.ActiveXObject)
@@ -496,7 +501,7 @@ function saveHtml()
 			write(webpage);
 			close();
 			document.charset = "utf-8";
-			dlg = execCommand('SaveAs', false, locationFile+"webpage.html");
+			//dlg = execCommand('SaveAs', false, locationFile+"webpage.html");
 			}
     return dlg;
 			}
@@ -504,6 +509,6 @@ function saveHtml()
 			else{
 			webpage = webpage;
 			var blob = new Blob([webpage], {type: "text/html;charset=utf-8"});
-			saveAs(blob, "webpage.html");
+			//saveAs(blob, "webpage.html");
 		}
 		}

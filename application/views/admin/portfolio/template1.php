@@ -250,6 +250,10 @@
 <form id="drag-from" method="post" enctype="multipart/form-data" style="opacity: 0">
   <input type="file" name="file" class="drag-img">
 </form>
+
+<form method="post" id="template-create" style="opacity: 0">
+  <textarea name="html"></textarea>
+</form>
     <script type="text/javascript" src="<?php echo base_url('page_bulder/js/jquery-2.0.0.min.js') ?>"></script>
     <!--[if lt IE 9]>
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js') ?>"></script>

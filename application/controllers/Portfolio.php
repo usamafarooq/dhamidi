@@ -17,7 +17,8 @@ class Portfolio extends Front_Controller {
 
     public function detail($id)
     {
-        $this->load->front_template('portfolio/detail.php');
+        $this->data['portfolio'] = $this->portfolio_model->get_row_single('portfolio', array('id' => $id));
+        $this->load->front_template('portfolio/template'.$this->data['portfolio']['template'].'.php',$this->data);      
     }
 
 }
