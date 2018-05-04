@@ -53,6 +53,20 @@
 
                                     </div><div class="form-group row">
 
+                                <label for="example-text-input" class="col-sm-3 col-form-label">Template<span class="required">*</span></label>
+                                        <div class="col-sm-9">
+                                            <div class="radio radio-info radio-inline">
+                                                <input type="radio"  name="template" id="inlineCheckbox1" value="1" checked="">
+                                                <label for="inlineCheckbox1">Templata 1</label>
+                                            </div>
+                                            <div class="radio radio-info radio-inline">
+                                                <input type="radio"  name="template" id="inlineCheckbox2" value="2">
+                                                <label for="inlineCheckbox2">Templata 2</label>
+                                            </div>
+                                        </div>
+
+                                    </div><div class="form-group row">
+
                                 <div class="col-sm-12">
                                     <button type="submit" class="btn btn-primary pull-right">Add</button>
                                 </div>

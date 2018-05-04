@@ -16,6 +16,7 @@
                             <!-- start portfolio-item item -->
                             <?php foreach ($portfolio as $p) {?>
                             <li class="design <?php echo $p['category'] ?> grid-item wow fadeInUp last-paragraph-no-margin">
+                                <a href="<?php echo base_url('portfolio/detail/'.$p['id']) ?>">
                                 <figure>
                                     <div class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
                                         <img src="<?php echo base_url($p['Image']) ?>" alt="" style="height: 260px; " />
@@ -26,6 +27,7 @@
                                     </div>
 
                                 </figure>
+                                </a>
                             </li>
                             <?php } ?>
                         </ul>
