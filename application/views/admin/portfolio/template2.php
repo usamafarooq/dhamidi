@@ -119,59 +119,95 @@
                             <div class="lyrow ui-draggable">
                                 <a href="#close" class="remove label label-important"><i class="icon-remove icon-white"></i>Remove</a> <span class="drag label"><i class="icon-move"></i>Drag</span>
                                 <div class="preview">
-                                    <input value="Heading With Text" type="text">
+                                    <input value="Parallax Background" type="text">
                                 </div>
                                 <div class="view">
-                                  <section class="wow fadeIn no-padding-bottom fadeInUp" style="padding-top: 0px !important;" contenteditable="true">
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-lg-8 col-md-8 col-sm-10 col-xs-12 center-col text-center last-paragraph-no-margin">
-                                                <h5 class="alt-font text-extra-dark-gray font-weight-600">Experience Our Work</h5>
-                                                <p class="width-80 center-col display-inline-block xs-width-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><br />
-                                                <p></p>
+                                  <section contenteditable="true" class="wow fadeIn no-padding parallax one-fifth-screen sm-height-500px xs-height-350px background-position-x-50" data-stellar-background-ratio="0.4" style="background-image: url(<?php echo base_url('front_assets/') ?>images/bgdy/1.jpg); background-position: 20px -41.6px; visibility: visible; animation-name: fadeIn; height: 900px;">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-md-12"></div>
                                             </div>
                                         </div>
+                                    </section>
+                                 </div>
+                            </div>
+                            <div class="lyrow ui-draggable">
+                                <a href="#close" class="remove label label-important"><i class="icon-remove icon-white"></i>Remove</a> <span class="drag label"><i class="icon-move"></i>Drag</span>
+                                <div class="preview">
+                                    <input value="Grid Items" type="text">
+                                </div>
+                                <div class="view">
+                                <div class="container" contenteditable="true">
+                                    <div class="row">
+                                        <!-- start feature box item -->
+                                        <div class="col-md-4 col-sm-4 col-xs-12 xs-margin-30px-bottom xs-text-center wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                                            <div class="col-md-3 col-sm-4 col-xs-12 no-padding-left xs-no-padding-lr pull-left xs-margin-15px-bottom">
+                                                <i class="icon-desktop text-medium-gray icon-extra-medium top-6"></i>
+                                            </div>
+                                            <div class="col-md-9 col-sm-8 col-xs-12 no-padding">
+                                                <span class="margin-5px-bottom text-extra-dark-gray alt-font display-block font-weight-600">Digital Solutions</span>
+                                                <p class="width-75 md-width-100 no-margin-bottom">Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
+                                            </div>
+                                        </div>
+                                        <!-- end feature box item -->
+                                        <!-- start feature box item -->
+                                        <div class="col-md-4 col-sm-4 col-xs-12 xs-margin-15px-bottom xs-text-center wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                                            <div class="col-md-3 col-sm-4 col-xs-12 no-padding-left xs-no-padding-lr pull-left xs-margin-15px-bottom">
+                                                <i class="icon-book-open text-medium-gray icon-extra-medium top-6"></i>
+                                            </div>
+                                            <div class="col-md-9 col-sm-8 col-xs-12 no-padding">
+                                                <span class="margin-5px-bottom text-extra-dark-gray alt-font display-block font-weight-600">Brand Communications</span>
+                                                <p class="width-75 md-width-100 no-margin-bottom">Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
+                                            </div>
+                                        </div>
+                                        <!-- end feature box item -->
+                                        <!-- start feature box item -->
+                                        <div class="col-md-4 col-sm-4 col-xs-12 xs-text-center wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                                            <div class="col-md-3 col-sm-4 col-xs-12 no-padding-left xs-no-padding-lr pull-left xs-margin-15px-bottom">
+                                                <i class="icon-gift text-medium-gray icon-extra-medium top-6"></i>
+                                            </div>
+                                            <div class="col-md-9 col-sm-8 col-xs-12 no-padding">
+                                                <span class="margin-5px-bottom text-extra-dark-gray alt-font display-block font-weight-600">Creative Strategy</span>
+                                                <p class="width-75 md-width-100 no-margin-bottom">Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
+                                            </div>
+                                        </div>
+                                        <!-- end feature box item -->
                                     </div>
-                                  </section>
+                                </div>
                                 </div>
                             </div>
                             <div class="lyrow ui-draggable">
                                 <a href="#close" class="remove label label-important"><i class="icon-remove icon-white"></i>Remove</a> <span class="drag label"><i class="icon-move"></i>Drag</span>
                                 <div class="preview">
-                                    <input value="Grid Images" type="text">
+                                    <input value="Quotes" type="text">
                                 </div>
                                 <div class="view">
-                                    <section class="wow fadeIn no-padding-top" contenteditable="true">
-                                      <div class="row vertical-align-middle">
-                                          <div style=" " class=" col-md-6 col-sm-12 col-xs-12 sm-margin-30px-bottom sm-text-center wow fadeInDown vertical-align-middle">
-                                              <img class="pull-right" src="<?php echo base_url('front_assets/') ?>images/Capture.png">
-                                          </div>
-                                          <div class="col-md-6 col-sm-12 col-xs-12 sm-margin-30px-bottom sm-text-center wow fadeInDown vertical-align-middle ">
-                                              <div class="row vertical-align-middle">
-                                                  <div style="" class="col-md-12 col-sm-12 col-xs-12 sm-margin-30px-bottom sm-text-center wow fadeInDown vertical-align-middle"><img src="<?php echo base_url('front_assets/') ?>images/Capture2.png"></div>
-                                              </div>
-                                              <div style="padding-top: 10px;" class="row vertical-align-middle">
-                                                  <div style=" " class="col-md-12 col-sm-12 col-xs-12 sm-margin-30px-bottom sm-text-center wow fadeInDown vertical-align-middle"><img src="<?php echo base_url('front_assets/') ?>images/Capture2.png"></div>
-                                              </div>
-                                          </div>
-                                      </div>
-                                  </section>
+                                   <section class="wow fadeIn big-section" style="visibility: visible; animation-name: fadeIn;" contenteditable="true">
+                                       <div class="container">
+                                           <div class="row">
+                                               <div class="col-lg-12 center-col text-center">
+                                                   <i class="fa fa-quote-left icon-small text-deep-pink display-block margin-25px-bottom"></i>
+                                                   <h4 class="alt-font text-extra-dark-gray font-weight-600">This is an excellent company! I personally enjoyed the energy and the professional support the whole team gave to us into creating website.</h4>
+                                                   <span class="text-uppercase text-extra-small alt-font letter-spacing-3 text-medium-gray">Mattie Stepanek</span>
+                                               </div>
+                                           </div>
+                                       </div>
+                                   </section>
                                 </div>
                             </div>
                             <div class="lyrow ui-draggable">
                                 <a href="#close" class="remove label label-important"><i class="icon-remove icon-white"></i>Remove</a> <span class="drag label"><i class="icon-move"></i>Drag</span>
                                 <div class="preview">
-                                    <input value="Single Images" type="text">
+                                    <input value="Image Box" type="text">
                                 </div>
                                 <div class="view">
-                                    <section class="wow fadeIn no-padding-top" contenteditable="true">
-                                      <div class="container-fluid">
-
+                                 
+                                 <section contenteditable="true" class="wow fadeIn no-padding" style="visibility: visible; animation-name: fadeIn;">
+                                      <div class="container-fluid no-padding">
                                           <div class="row">
-                                              <div class="col-lg-8 col-md-12 center-col text-center margin-35px-bottom xs-margin-15px-bottom wow fadeInUp">
-                                                  <img src="<?php echo base_url('front_assets/') ?>images/360371448.jpg" class="width-100">
+                                              <div class="col-md-12 no-padding">
+                                                  <img src="<?php echo base_url('front_assets/') ?>images/bgdy/5.jpg" alt="" class="width-100" style="height: 550px;" data-no-retina="">
                                               </div>
-                                              
                                           </div>
                                       </div>
                                   </section>
@@ -180,22 +216,105 @@
                             <div class="lyrow ui-draggable">
                                 <a href="#close" class="remove label label-important"><i class="icon-remove icon-white"></i>Remove</a> <span class="drag label"><i class="icon-move"></i>Drag</span>
                                 <div class="preview">
-                                    <input value="Content Box" type="text">
+                                    <input value="Recent Works" type="text">
                                 </div>
                                 <div class="view">
-                                  <section class="parallax wow fadeIn" data-stellar-background-ratio="0.2" style="background-image:url('<?php echo base_url('front_assets/') ?>images/single-project-03-img12.jpg');">
-                                      <div class="container" contenteditable="true">
-                                          <div class="row">
-                                              <div class="col-lg-8 center-col display-table extra-small-screen text-center col-md-8 xs-padding-15px-lr">
-                                                  <div class="display-table-cell vertical-align-middle">
-                                                      <span class="margin-15px-bottom display-block alt-font text-uppercase xs-margin-5px-bottom">Powerful wordpress website builder</span>
-                                                      <h3 class="alt-font text-extra-dark-gray font-weight-600">We are delivering beautiful digital products for you</h3>
-                                                      <a href="#" class="btn btn-dark-gray bg-white btn-large margin-20px-top xs-no-margin-top wow fadeInUp">Launch Website</a>
-                                                  </div>
-                                              </div>
-                                          </div>
-                                      </div>
-                                  </section>
+                                 
+                                 <section contenteditable="true" class="wow fadeIn bg-light-gray" style="visibility: visible; animation-name: fadeIn;">
+                                   <div class="container">
+                                       <div class="row">
+                                           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 center-col margin-eight-bottom text-center">
+                                               <div class="alt-font text-medium-gray margin-10px-bottom text-uppercase text-small">Our recent works</div>
+                                               <h5 class="alt-font text-extra-dark-gray font-weight-600">New stunning projects for our amazing clients</h5>
+                                           </div>
+                                       </div>
+                                   </div>
+                                   <div class="container-fluid padding-five-lr">
+                                       <div class="row no-margin">
+                                           <div class="filter-content overflow-hidden">
+                                               <ul class="portfolio-grid work-4col gutter-large hover-option7" style="position: relative; height: 330.25px;">
+                                                   <li class="grid-sizer"></li>
+                                                   <!-- start portfolio item -->
+                                                   <li class="grid-item web branding design fadeInUp" style="visibility: visible; animation-name: fadeInUp; position: absolute; left: 0%; top: 0px;">
+                                                       <a href="single-project-page-01.html">
+                                                           <figure>
+                                                               <div class="portfolio-img"><img src="<?php echo base_url('front_assets/') ?>images/bgdy/9.jpg" alt="" data-no-retina=""></div>
+                                                               <figcaption>
+                                                                   <div class="portfolio-hover-main text-center last-paragraph-no-margin">
+                                                                       <div class="portfolio-hover-box vertical-align-middle">
+                                                                           <div class="portfolio-hover-content position-relative">
+                                                                               <span class="font-weight-600 alt-font text-uppercase margin-one-bottom display-block text-extra-dark-gray">Naked Soap</span>
+                                                                               <p class="text-medium-gray text-uppercase text-extra-small">Web and Photography</p>
+                                                                           </div>
+                                                                       </div>
+                                                                   </div>
+                                                               </figcaption>
+                                                           </figure>
+                                                       </a>
+                                                   </li>
+                                                   <!-- end portfolio item -->
+                                                   <!-- start portfolio item -->
+                                                   <li class="grid-item design photography fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp; position: absolute; left: 24.9822%; top: 0px;">
+                                                       <a href="single-project-page-02.html">
+                                                           <figure>
+                                                               <div class="portfolio-img"><img src="<?php echo base_url('front_assets/') ?>images/bgdy/8.jpg" alt="" data-no-retina=""></div>
+                                                               <figcaption>
+                                                                   <div class="portfolio-hover-main text-center last-paragraph-no-margin">
+                                                                       <div class="portfolio-hover-box vertical-align-middle">
+                                                                           <div class="portfolio-hover-content position-relative">
+                                                                               <span class="font-weight-600 alt-font text-uppercase margin-one-bottom display-block text-extra-dark-gray">Berlin Design</span>
+                                                                               <p class="text-medium-gray text-uppercase text-extra-small">Branding and Brochure</p>
+                                                                           </div>
+                                                                       </div>
+                                                                   </div>
+                                                               </figcaption>
+                                                           </figure>
+                                                       </a>
+                                                   </li>
+                                                   <!-- end portfolio item -->
+                                                   <!-- start portfolio item -->
+                                                   <li class="grid-item web branding design photography fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp; position: absolute; left: 49.9643%; top: 0px;">
+                                                       <a href="single-project-page-03.html">
+                                                           <figure>
+                                                               <div class="portfolio-img"><img src="<?php echo base_url('front_assets/') ?>images/bgdy/10.jpg" alt="" data-no-retina=""></div>
+                                                               <figcaption>
+                                                                   <div class="portfolio-hover-main text-center last-paragraph-no-margin">
+                                                                       <div class="portfolio-hover-box vertical-align-middle">
+                                                                           <div class="portfolio-hover-content position-relative">
+                                                                               <span class="font-weight-600 alt-font text-uppercase margin-one-bottom display-block text-extra-dark-gray">Abstract Comics</span>
+                                                                               <p class="text-medium-gray text-uppercase text-extra-small">Branding and Identity</p>
+                                                                           </div>
+                                                                       </div>
+                                                                   </div>
+                                                               </figcaption>
+                                                           </figure>
+                                                       </a>
+                                                   </li>
+                                                   <!-- end portfolio item -->
+                                                   <!-- start portfolio item -->
+                                                   <li class="grid-item advertising branding design photography fadeInUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp; position: absolute; left: 74.9465%; top: 0px;">
+                                                       <a href="single-project-page-04.html">
+                                                           <figure>
+                                                               <div class="portfolio-img"><img src="<?php echo base_url('front_assets/') ?>images/bgdy/9.jpg" alt="" data-no-retina=""></div>
+                                                               <figcaption>
+                                                                   <div class="portfolio-hover-main text-center last-paragraph-no-margin">
+                                                                       <div class="portfolio-hover-box vertical-align-middle">
+                                                                           <div class="portfolio-hover-content position-relative">
+                                                                               <span class="font-weight-600 alt-font text-uppercase margin-one-bottom display-block text-extra-dark-gray">Teabag Collection</span>
+                                                                               <p class="text-medium-gray text-uppercase text-extra-small">Web and Photography</p>
+                                                                           </div>
+                                                                       </div>
+                                                                   </div>
+                                                               </figcaption>
+                                                           </figure>
+                                                       </a>
+                                                   </li>
+                                                   <!-- end portfolio item -->
+                                               </ul>
+                                           </div>
+                                       </div>
+                                   </div>
+                               </section>
                                 </div>
                             </div>
                         </li>
