@@ -119,6 +119,23 @@
                             <div class="lyrow ui-draggable">
                                 <a href="#close" class="remove label label-important"><i class="icon-remove icon-white"></i>Remove</a> <span class="drag label"><i class="icon-move"></i>Drag</span>
                                 <div class="preview">
+                                    <input value="Banner Image" type="text">
+                                </div>
+                                <div class="view">
+                                  <section contenteditable="true" class="no-padding full-screen position-relative wow fadeIn" style="min-height: 918px; visibility: visible; animation-name: fadeIn;">
+                                      <div class="opacity-medium z-index-0"></div>
+                                      <div class="swiper-auto-fade swiper-container z-index-minus2 position-absolute top-0 width-100 height-100 swiper-container-horizontal swiper-container-fade">
+                                          <div class="swiper-wrapper" style="transition-duration: 0ms;"><div class="swiper-slide cover-background full-screen swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="2" style="width: 1263px; transform: translate3d(0px, 0px, 0px); opacity: 1; transition-duration: 0ms; min-height: 918px;"><img src="<?php echo base_url('front_assets/') ?>images/single-project-07-img3.jpg" style="height: 100vh;" data-no-retina=""></div>
+                                           
+                                              <!-- end slider item -->                                        
+                                        </div>
+                                      </div>
+                                  </section>
+                                 </div>
+                            </div>
+                            <div class="lyrow ui-draggable">
+                                <a href="#close" class="remove label label-important"><i class="icon-remove icon-white"></i>Remove</a> <span class="drag label"><i class="icon-move"></i>Drag</span>
+                                <div class="preview">
                                     <input value="Parallax Background" type="text">
                                 </div>
                                 <div class="view">
