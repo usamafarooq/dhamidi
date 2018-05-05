@@ -154,43 +154,47 @@
                                     <input value="Grid Items" type="text">
                                 </div>
                                 <div class="view">
-                                <div class="container" contenteditable="true">
-                                    <div class="row">
-                                        <!-- start feature box item -->
-                                        <div class="col-md-4 col-sm-4 col-xs-12 xs-margin-30px-bottom xs-text-center wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-                                            <div class="col-md-3 col-sm-4 col-xs-12 no-padding-left xs-no-padding-lr pull-left xs-margin-15px-bottom">
-                                                <i class="icon-desktop text-medium-gray icon-extra-medium top-6"></i>
+                                <section   contenteditable="true" class="wow fadeIn   animated animated" style="visibility: visible; animation-name: fadeIn;">
+                                            <div class="container">
+                                                
+                                                
+                                                <div class="row">
+                                                    <!-- start feature box item -->
+                                                    <div class="col-md-4 col-sm-4 col-xs-12 xs-margin-30px-bottom xs-text-center wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                                                        <div class="col-md-3 col-sm-4 col-xs-12 no-padding-left xs-no-padding-lr pull-left xs-margin-15px-bottom">
+                                                            <i class="icon-desktop text-medium-gray icon-extra-medium top-6"></i>
+                                                        </div>
+                                                        <div class="col-md-9 col-sm-8 col-xs-12 no-padding">
+                                                            <span class="margin-5px-bottom text-extra-dark-gray alt-font display-block font-weight-600">Digital Solutions</span>
+                                                            <p class="width-75 md-width-100 no-margin-bottom">Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
+                                                        </div>
+                                                    </div>
+                                                    <!-- end feature box item -->
+                                                    <!-- start feature box item -->
+                                                    <div class="col-md-4 col-sm-4 col-xs-12 xs-margin-15px-bottom xs-text-center wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                                                        <div class="col-md-3 col-sm-4 col-xs-12 no-padding-left xs-no-padding-lr pull-left xs-margin-15px-bottom">
+                                                            <i class="icon-book-open text-medium-gray icon-extra-medium top-6"></i>
+                                                        </div>
+                                                        <div class="col-md-9 col-sm-8 col-xs-12 no-padding">
+                                                            <span class="margin-5px-bottom text-extra-dark-gray alt-font display-block font-weight-600">Brand Communications</span>
+                                                            <p class="width-75 md-width-100 no-margin-bottom">Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
+                                                        </div>
+                                                    </div>
+                                                    <!-- end feature box item -->
+                                                    <!-- start feature box item -->
+                                                    <div class="col-md-4 col-sm-4 col-xs-12 xs-text-center wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                                                        <div class="col-md-3 col-sm-4 col-xs-12 no-padding-left xs-no-padding-lr pull-left xs-margin-15px-bottom">
+                                                            <i class="icon-gift text-medium-gray icon-extra-medium top-6"></i>
+                                                        </div>
+                                                        <div class="col-md-9 col-sm-8 col-xs-12 no-padding">
+                                                            <span class="margin-5px-bottom text-extra-dark-gray alt-font display-block font-weight-600">Creative Strategy</span>
+                                                            <p class="width-75 md-width-100 no-margin-bottom">Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
+                                                        </div>
+                                                    </div>
+                                                    <!-- end feature box item -->
+                                                </div>
                                             </div>
-                                            <div class="col-md-9 col-sm-8 col-xs-12 no-padding">
-                                                <span class="margin-5px-bottom text-extra-dark-gray alt-font display-block font-weight-600">Digital Solutions</span>
-                                                <p class="width-75 md-width-100 no-margin-bottom">Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
-                                            </div>
-                                        </div>
-                                        <!-- end feature box item -->
-                                        <!-- start feature box item -->
-                                        <div class="col-md-4 col-sm-4 col-xs-12 xs-margin-15px-bottom xs-text-center wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
-                                            <div class="col-md-3 col-sm-4 col-xs-12 no-padding-left xs-no-padding-lr pull-left xs-margin-15px-bottom">
-                                                <i class="icon-book-open text-medium-gray icon-extra-medium top-6"></i>
-                                            </div>
-                                            <div class="col-md-9 col-sm-8 col-xs-12 no-padding">
-                                                <span class="margin-5px-bottom text-extra-dark-gray alt-font display-block font-weight-600">Brand Communications</span>
-                                                <p class="width-75 md-width-100 no-margin-bottom">Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
-                                            </div>
-                                        </div>
-                                        <!-- end feature box item -->
-                                        <!-- start feature box item -->
-                                        <div class="col-md-4 col-sm-4 col-xs-12 xs-text-center wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
-                                            <div class="col-md-3 col-sm-4 col-xs-12 no-padding-left xs-no-padding-lr pull-left xs-margin-15px-bottom">
-                                                <i class="icon-gift text-medium-gray icon-extra-medium top-6"></i>
-                                            </div>
-                                            <div class="col-md-9 col-sm-8 col-xs-12 no-padding">
-                                                <span class="margin-5px-bottom text-extra-dark-gray alt-font display-block font-weight-600">Creative Strategy</span>
-                                                <p class="width-75 md-width-100 no-margin-bottom">Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
-                                            </div>
-                                        </div>
-                                        <!-- end feature box item -->
-                                    </div>
-                                </div>
+                                        </section>
                                 </div>
                             </div>
                             <div class="lyrow ui-draggable">
