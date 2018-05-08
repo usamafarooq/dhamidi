@@ -122,13 +122,13 @@
                                     <input value="Banner Image" type="text">
                                 </div>
                                 <div class="view">
-                                  <section contenteditable="true" class="no-padding full-screen position-relative wow fadeIn" style="min-height: 918px; visibility: visible; animation-name: fadeIn;">
-                                      <div class="opacity-medium z-index-0"></div>
-                                      <div class="swiper-auto-fade swiper-container z-index-minus2 position-absolute top-0 width-100 height-100 swiper-container-horizontal swiper-container-fade">
-                                          <div class="swiper-wrapper" style="transition-duration: 0ms;"><div class="swiper-slide cover-background full-screen swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="2" style="width: 1263px; transform: translate3d(0px, 0px, 0px); opacity: 1; transition-duration: 0ms; min-height: 918px;"><img src="<?php echo base_url('front_assets/') ?>images/single-project-07-img3.jpg" style="height: 100vh;" data-no-retina=""></div>
-                                           
-                                              <!-- end slider item -->                                        
-                                        </div>
+                                  <section contenteditable="true" class="no-padding full-screen position-relative wow fadeIn">
+                                      <div class="swiper-auto-fade swiper-container z-index-minus2 position-absolute top-0 width-100 height-100">
+                                          <div class="swiper-wrapper">
+                                              <!-- start slider item -->
+                                              <div class="swiper-slide cover-background full-screen"><img src="<?php echo base_url('front_assets/') ?>images/single-project-07-img1.jpg" style="height: 100vh;"></div>
+                                             
+                                          </div>
                                       </div>
                                   </section>
                                  </div>
@@ -139,17 +139,17 @@
                                     <input value="Heading With Text" type="text">
                                 </div>
                                 <div class="view">
-                                  <section class="wow fadeIn no-padding-bottom fadeInUp" style="padding-top: 0px !important;" contenteditable="true">
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-lg-8 col-md-8 col-sm-10 col-xs-12 center-col text-center last-paragraph-no-margin">
-                                                <h5 class="alt-font text-extra-dark-gray font-weight-600">Experience Our Work</h5>
-                                                <p class="width-80 center-col display-inline-block xs-width-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><br />
-                                                <p></p>
+                             
+                                    <section contenteditable="true" class="top-space wow fadeIn no-padding-bottom fadeInUp" style="padding-top: 0px !important; visibility: visible; animation-name: fadeInUp;">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-8 col-md-8 col-sm-10 col-xs-12 center-col text-center last-paragraph-no-margin">
+                                                    <h5 class="alt-font text-extra-dark-gray font-weight-600">Experience Our Work</h5>
+                                                    <p class="width-80 center-col display-inline-block xs-width-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><br><p></p>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                  </section>
+                                    </section>
                                 </div>
                             </div>
                             <div class="lyrow ui-draggable">
@@ -158,7 +158,7 @@
                                     <input value="Grid Images" type="text">
                                 </div>
                                 <div class="view">
-                                    <section class="wow fadeIn no-padding-top" contenteditable="true">
+                                    <section class="top-space wow fadeIn no-padding-top" contenteditable="true">
                                       <div class="row vertical-align-middle">
                                           <div style=" " class=" col-md-6 col-sm-12 col-xs-12 sm-margin-30px-bottom sm-text-center wow fadeInDown vertical-align-middle">
                                               <img class="pull-right" src="<?php echo base_url('front_assets/') ?>images/Capture.png">
@@ -226,7 +226,7 @@
                 <!-- end demo -->
                 <!--/span-->
                 <div id="download-layout">
-                    <div class="container-fluid"></div>
+                    <div class=""></div>
                 </div>
             </div>
             <!--/row-->
