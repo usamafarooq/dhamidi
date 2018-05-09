@@ -180,7 +180,7 @@
                 <div class="row">
                     <!-- start logo -->
                     <div class="col-md-2 col-xs-5">
-                        <a href="<?php echo base_url() ?>" title="Pofo" class="logo"><img src="<?php echo base_url() ?>front_assets/images/logo-d.png" data-at2x="images/logo@2x.png" class="logo-dark" alt="Pofo"><img src="<?php echo base_url() ?>front_assets/images/logo-d.png" data-at2x="images/logo-white@2x.png" alt="Pofo" class="logo-light default"></a>
+                        <a href="<?php echo base_url() ?>" title="Pofo" class="logo"><img src="<?php echo base_url() ?>front_assets/images/d_logo.png" data-at2x="<?php echo base_url() ?>front_assets/images/d_logo.png" class="logo-dark" alt="Pofo"><img src="<?php echo base_url() ?>front_assets/images/logo-d.png" data-at2x="<?php echo base_url() ?>front_assets/images/d_logo.png" alt="Pofo" class="logo-light default"></a>
                     </div>
                     <!-- end logo -->
                     <div class="col-md-2" style="height: 65px; visibility: hidden;">
