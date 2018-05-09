@@ -43,9 +43,9 @@ class Portfolio extends MY_Controller
         $data['user_id']         = $this->session->userdata('user_id');
         $config['upload_path']   = './uploads/';
         $config['allowed_types'] = 'png|jpg|jpeg|gif';
-        $config['max_size']      = 1000;
-        $config['max_width']     = 1024;
-        $config['max_height']    = 768;
+        $config['max_size']      = 5000;
+        $config['max_width']     = 5024;
+        $config['max_height']    = 4768;
         
         $this->load->library('upload', $config);
         
@@ -83,9 +83,9 @@ class Portfolio extends MY_Controller
         unset($data['id']);
         $config['upload_path']   = './uploads/';
         $config['allowed_types'] = 'png|jpg|jpeg|gif';
-        $config['max_size']      = 1000;
-        $config['max_width']     = 1024;
-        $config['max_height']    = 768;
+        $config['max_size']      = 5000;
+        $config['max_width']     = 5024;
+        $config['max_height']    = 4768;
         
         $this->load->library('upload', $config);
         
@@ -124,9 +124,9 @@ class Portfolio extends MY_Controller
     {
     	$config['upload_path']   = './uploads/';
         $config['allowed_types'] = 'png|jpg|jpeg|gif';
-        $config['max_size']      = 1000;
-        $config['max_width']     = 1024;
-        $config['max_height']    = 768;
+        $config['max_size']      = 5000;
+        $config['max_width']     = 5024;
+        $config['max_height']    = 4768;
         
         $this->load->library('upload', $config);
         $data = array();
