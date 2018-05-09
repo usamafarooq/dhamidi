@@ -158,19 +158,21 @@
                                     <input value="Grid Images" type="text">
                                 </div>
                                 <div class="view">
-                                    <section class="top-space wow fadeIn no-padding-top" contenteditable="true">
+                                    <section class="top-space wow fadeIn no-padding-top" contenteditable="true" style="margin-top: 60px; visibility: visible; animation-name: fadeIn;">
+                                      <div class="container-fluid">
                                       <div class="row vertical-align-middle">
                                           <div style=" " class=" col-md-6 col-sm-12 col-xs-12 sm-margin-30px-bottom sm-text-center wow fadeInDown vertical-align-middle">
-                                              <img class="pull-right" src="<?php echo base_url('front_assets/') ?>images/Capture.png">
+                                              <img style="height: 541px;width: 403px;" class="pull-right" src="<?php echo base_url('front_assets/') ?>images/Capture.png">
                                           </div>
                                           <div class="col-md-6 col-sm-12 col-xs-12 sm-margin-30px-bottom sm-text-center wow fadeInDown vertical-align-middle ">
                                               <div class="row vertical-align-middle">
-                                                  <div style="" class="col-md-12 col-sm-12 col-xs-12 sm-margin-30px-bottom sm-text-center wow fadeInDown vertical-align-middle"><img src="<?php echo base_url('front_assets/') ?>images/Capture2.png"></div>
+                                                  <div style="" class="col-md-12 col-sm-12 col-xs-12 sm-margin-30px-bottom sm-text-center wow fadeInDown vertical-align-middle"><img style="height: 265px; width: 399px;" src="<?php echo base_url('front_assets/') ?>images/Capture2.png"></div>
                                               </div>
                                               <div style="padding-top: 10px;" class="row vertical-align-middle">
-                                                  <div style=" " class="col-md-12 col-sm-12 col-xs-12 sm-margin-30px-bottom sm-text-center wow fadeInDown vertical-align-middle"><img src="<?php echo base_url('front_assets/') ?>images/Capture2.png"></div>
+                                                  <div style=" " class="col-md-12 col-sm-12 col-xs-12 sm-margin-30px-bottom sm-text-center wow fadeInDown vertical-align-middle"><img style="height: 265px; width: 399px;" src="<?php echo base_url('front_assets/') ?>images/Capture2.png"></div>
                                               </div>
                                           </div>
+                                      </div>
                                       </div>
                                   </section>
                                 </div>
@@ -181,16 +183,34 @@
                                     <input value="Single Images" type="text">
                                 </div>
                                 <div class="view">
-                                    <section class="wow fadeIn no-padding-top" contenteditable="true">
+                                    
+                                  <section contenteditable="true" class="wow fadeIn no-padding-top top-space" style="visibility: visible;animation-name: fadeIn;margin-top: -65px;">
                                       <div class="container-fluid">
 
-                                          <div class="row">
-                                              <div class="col-lg-8 col-md-12 center-col text-center margin-35px-bottom xs-margin-15px-bottom wow fadeInUp">
-                                                  <img src="<?php echo base_url('front_assets/') ?>images/360371448.jpg" class="width-100">
+                                            <div class="row">
+                                              <!-- start product gallery item -->   
+                                              <!-- end product gallery item -->
+                                              <!-- start product gallery item -->
+                                              <div class="col-lg-8 col-md-12 center-col text-center margin-35px-bottom xs-margin-15px-bottom wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                                                  <img src="<?php echo base_url('front_assets/') ?>images/hubco.jpg" class="width-100" alt="" data-no-retina="">
                                               </div>
-                                              
+                                              <!-- end product gallery item -->
+                                              <!-- start product gallery item -->
+                                              <div class="col-lg-8 col-md-12 center-col text-center margin-35px-bottom xs-margin-15px-bottom wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                                                  <img src="<?php echo base_url('front_assets/') ?>images/hubco.jpg" class="width-100" alt="" data-no-retina="">
+                                              </div>
+                                              <!-- end product gallery item -->
+                                              <!-- start product gallery item -->
+                                              <div class="col-lg-8 col-md-12 center-col text-center margin-35px-bottom xs-margin-15px-bottom wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                                                  <img src="<?php echo base_url('front_assets/') ?>images/hubco.jpg" class="width-100" alt="" data-no-retina="">
+                                              </div>
+                                              <!-- end product gallery item -->
+                                              <!-- start product gallery item -->
+                                             
+                                              <!-- end product gallery item -->
                                           </div>
-                                      </div>
+                                      </div> 
+                                      
                                   </section>
                                 </div>
                             </div>
@@ -200,7 +220,7 @@
                                     <input value="Content Box" type="text">
                                 </div>
                                 <div class="view">
-                                  <section class="parallax wow fadeIn" data-stellar-background-ratio="0.2" style="background-image:url('<?php echo base_url('front_assets/') ?>images/single-project-03-img12.jpg');">
+                                  <section class="top-space parallax wow fadeIn" data-stellar-background-ratio="0.2" style="background-image:url('<?php echo base_url('front_assets/') ?>images/single-project-03-img12.jpg');">
                                       <div class="container" contenteditable="true">
                                           <div class="row">
                                               <div class="col-lg-8 center-col display-table extra-small-screen text-center col-md-8 xs-padding-15px-lr">

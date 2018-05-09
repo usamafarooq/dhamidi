@@ -122,13 +122,13 @@
                                     <input value="Banner Image" type="text">
                                 </div>
                                 <div class="view">
-                                  <section contenteditable="true" class="no-padding full-screen position-relative wow fadeIn" style="min-height: 918px; visibility: visible; animation-name: fadeIn;">
-                                      <div class="opacity-medium z-index-0"></div>
-                                      <div class="swiper-auto-fade swiper-container z-index-minus2 position-absolute top-0 width-100 height-100 swiper-container-horizontal swiper-container-fade">
-                                          <div class="swiper-wrapper" style="transition-duration: 0ms;"><div class="swiper-slide cover-background full-screen swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="2" style="width: 1263px; transform: translate3d(0px, 0px, 0px); opacity: 1; transition-duration: 0ms; min-height: 918px;"><img src="<?php echo base_url('front_assets/') ?>images/single-project-07-img3.jpg" style="height: 100vh;" data-no-retina=""></div>
-                                           
-                                              <!-- end slider item -->                                        
-                                        </div>
+                                  <section contenteditable="true" class="no-padding full-screen position-relative wow fadeIn">
+                                      <div class="swiper-auto-fade swiper-container z-index-minus2 position-absolute top-0 width-100 height-100">
+                                          <div class="swiper-wrapper">
+                                              <!-- start slider item -->
+                                              <div class="swiper-slide cover-background full-screen"><img src="<?php echo base_url('front_assets/') ?>images/single-project-07-img1.jpg" style="height: 100vh;"></div>
+                                             
+                                          </div>
                                       </div>
                                   </section>
                                  </div>
@@ -140,6 +140,36 @@
                                 </div>
                                 <div class="view">
                                   <section contenteditable="true" class="wow fadeIn no-padding parallax one-fifth-screen sm-height-500px xs-height-350px background-position-x-50" data-stellar-background-ratio="0.4" style="background-image: url(<?php echo base_url('front_assets/') ?>images/bgdy/1.jpg); background-position: 20px -41.6px; visibility: visible; animation-name: fadeIn; height: 900px;">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-md-12"></div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                 </div>
+                            </div>
+                            <div class="lyrow ui-draggable">
+                                <a href="#close" class="remove label label-important"><i class="icon-remove icon-white"></i>Remove</a> <span class="drag label"><i class="icon-move"></i>Drag</span>
+                                <div class="preview">
+                                    <input value="Parallax Backgnd 2" type="text">
+                                </div>
+                                <div class="view">
+                                  <section contenteditable="true" class="wow fadeIn no-padding parallax one-fifth-screen sm-height-500px xs-height-350px background-position-x-50" data-stellar-background-ratio="0.4" style="background-image: url(<?php echo base_url('front_assets/') ?>images/bgdy/22.jpg); background-position: 20px -41.6px; visibility: visible; animation-name: fadeIn; height: 900px;">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-md-12"></div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                 </div>
+                            </div>
+                            <div class="lyrow ui-draggable">
+                                <a href="#close" class="remove label label-important"><i class="icon-remove icon-white"></i>Remove</a> <span class="drag label"><i class="icon-move"></i>Drag</span>
+                                <div class="preview">
+                                    <input value="Parallax Backgnd 2" type="text">
+                                </div>
+                                <div class="view">
+                                   <section contenteditable="true" class="wow fadeIn no-padding parallax one-fifth-screen sm-height-500px xs-height-350px background-position-x-50" data-stellar-background-ratio="0.4" style="background-image: url(<?php echo base_url('front_assets/') ?>images/bgdy/33.jpg); background-position: 20px -41.6px; visibility: visible; animation-name: fadeIn; height: 900px;">
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col-md-12"></div>
