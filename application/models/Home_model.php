@@ -7,7 +7,7 @@ class Home_model extends MY_Model
 		$this->db->select('portfolio.*,portfolio_category.Name as category')
 				 ->from('portfolio')
 				 ->join('portfolio_category', 'portfolio_category.id = portfolio.Category')
-				 ->limit(10)
+				 ->limit(15)
 				 ->order_by('portfolio.id', 'desc'); 
 		return $this->db->get()->result_array();
 	}
