@@ -195,7 +195,7 @@
 </style>
 <!-- start slider section -->
     <section id="home" class="no-padding full-screen position-relative wow fadeIn" data-stellar-background-ratio="0.5" style="padding: 0">
-        <video autoplay style="height: 100vh !important; background-repeat: no-repeat; background-size: cover; min-width: 100%; min-height: 100%; width: auto;" id="video-background" muted plays-inline><source src="<?php echo base_url() ?>front_assets/images/video.mp4"  type="video/mp4"></video>
+        <video autoplay style="height: 100vh !important; background-repeat: no-repeat; background-size: cover; min-width: 100%; min-height: 100%; width: auto;" id="video-background" muted plays-inline><source src="<?php echo base_url() ?>front_assets/images/video10sec.mp4"  type="video/mp4"></video>
     </section>
 
     <!-- end slider section -->
