@@ -46,8 +46,8 @@
     <!--[if IE]>
             <script src="js/html5shiv.js"></script>
         <![endif]-->
-    <style type="text/css">
-        .buy-theme.alt-font.sm-display-none {
+<style type="text/css">
+.buy-theme.alt-font.sm-display-none {
             display: none;
         }
 
@@ -110,30 +110,7 @@
             }
         }
 
-        .portfolio-icon {
-            display: none !important;
-        }
 
-        .portfolio-grid .grid-item figure img {
-            -ms-filter: grayscale(1);
-            -webkit-filter: grayscale(1);
-            -moz-filter: grayscale(1);
-            -o-filter: grayscale(1);
-            filter: grayscale(1);
-            -webkit-transition: all 350ms ease-in-out;
-            -moz-transition: all 350ms ease-in-out;
-            transition: all 350ms ease-in-out;
-            transform-style: preserve-3d;
-        }
-
-        .portfolio-grid .grid-item figure:hover img {
-            -ms-filter: grayscale(0);
-            -webkit-filter: grayscale(0);
-            -moz-filter: grayscale(0);
-            -o-filter: grayscale(0);
-            filter: grayscale(0);
-            opacity: 1 !important;
-        }
 
         .bg-deep-pink {
             background: none;
@@ -191,7 +168,7 @@
                 right: 35px;
             }
         }
-    </style>
+</style>
 </head>
 
 <body>
