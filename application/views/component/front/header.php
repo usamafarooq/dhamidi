@@ -216,7 +216,7 @@
             </div>
         </nav>
         <!-- end navigation -->
-        <di class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
+        <div class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
             <button class="close-button-menu side-menu-close" id="close-pushmenu"></button>
             <div class="display-table padding-twelve-all height-100 width-100 text-center">
                 <div class="display-table-cell vertical-align-top padding-70px-top position-relative">
