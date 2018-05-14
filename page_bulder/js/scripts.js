@@ -71,7 +71,7 @@ function undoLayout() {
 		if (data.count<2) return false;
 		window.demoHtml = data.list[data.count-2];
 		data.count--;
-		$('.demo').html(window.demoHtml);
+		//$('.demo').html(window.demoHtml);
 		if (supportstorage()) {
 			localStorage.setItem("layoutdata",JSON.stringify(data));
 		}
@@ -94,7 +94,7 @@ function redoLayout() {
 		if (data.list[data.count]) {
 			window.demoHtml = data.list[data.count];
 			data.count++;
-			$('.demo').html(window.demoHtml);
+			//$('.demo').html(window.demoHtml);
 			if (supportstorage()) {
 				localStorage.setItem("layoutdata",JSON.stringify(data));
 			}

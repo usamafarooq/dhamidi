@@ -116,23 +116,40 @@
                     <div class="sidebar-nav">
                       <ul class="nav nav-list accordion-group">
                         <li style="display: list-item;" class="rows" id="estRows">
+                        <div class="lyrow ui-draggable">
+                                <a href="#close" class="remove label label-important"><i class="icon-remove icon-white"></i>Remove</a> <span class="drag label"><i class="icon-move"></i>Drag</span>
+                                <div class="preview">
+                                    <input value="Banner Image" type="text">
+                                </div>
+                                <div class="view">
+                                  <section contenteditable="true" class="no-padding full-screen position-relative wow fadeIn">
+                                      <div class="swiper-auto-fade swiper-container z-index-minus2 position-absolute top-0 width-100 height-100">
+                                          <div class="swiper-wrapper">
+                                              <!-- start slider item -->
+                                              <div class="swiper-slide cover-background full-screen"><img src="<?php echo base_url('front_assets/') ?>images/single-project-07-img1.jpg" style="height: 100vh;"></div>
+                                             
+                                          </div>
+                                      </div>
+                                  </section>
+                                 </div>
+                            </div>
                             <div class="lyrow ui-draggable">
                                 <a href="#close" class="remove label label-important"><i class="icon-remove icon-white"></i>Remove</a> <span class="drag label"><i class="icon-move"></i>Drag</span>
                                 <div class="preview">
                                     <input value="Heading With Text" type="text">
                                 </div>
                                 <div class="view">
-                                  <section class="wow fadeIn no-padding-bottom fadeInUp" style="padding-top: 0px !important;" contenteditable="true">
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-lg-8 col-md-8 col-sm-10 col-xs-12 center-col text-center last-paragraph-no-margin">
-                                                <h5 class="alt-font text-extra-dark-gray font-weight-600">Experience Our Work</h5>
-                                                <p class="width-80 center-col display-inline-block xs-width-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><br />
-                                                <p></p>
+                             
+                                    <section contenteditable="true" class="top-space wow fadeIn no-padding-bottom fadeInUp" style="padding-top: 0px !important; visibility: visible; animation-name: fadeInUp;">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-8 col-md-8 col-sm-10 col-xs-12 center-col text-center last-paragraph-no-margin">
+                                                    <h5 class="alt-font text-extra-dark-gray font-weight-600">Experience Our Work</h5>
+                                                    <p class="width-80 center-col display-inline-block xs-width-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><br><p></p>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                  </section>
+                                    </section>
                                 </div>
                             </div>
                             <div class="lyrow ui-draggable">
@@ -141,19 +158,21 @@
                                     <input value="Grid Images" type="text">
                                 </div>
                                 <div class="view">
-                                    <section class="wow fadeIn no-padding-top" contenteditable="true">
+                                    <section class="top-space wow fadeIn no-padding-top" contenteditable="true" style="margin-top: 60px; visibility: visible; animation-name: fadeIn;">
+                                      <div class="container-fluid">
                                       <div class="row vertical-align-middle">
                                           <div style=" " class=" col-md-6 col-sm-12 col-xs-12 sm-margin-30px-bottom sm-text-center wow fadeInDown vertical-align-middle">
-                                              <img class="pull-right" src="<?php echo base_url('front_assets/') ?>images/Capture.png">
+                                              <img style="height: 541px;width: 403px;" class="pull-right" src="<?php echo base_url('front_assets/') ?>images/Capture.png">
                                           </div>
                                           <div class="col-md-6 col-sm-12 col-xs-12 sm-margin-30px-bottom sm-text-center wow fadeInDown vertical-align-middle ">
                                               <div class="row vertical-align-middle">
-                                                  <div style="" class="col-md-12 col-sm-12 col-xs-12 sm-margin-30px-bottom sm-text-center wow fadeInDown vertical-align-middle"><img src="<?php echo base_url('front_assets/') ?>images/Capture2.png"></div>
+                                                  <div style="" class="col-md-12 col-sm-12 col-xs-12 sm-margin-30px-bottom sm-text-center wow fadeInDown vertical-align-middle"><img style="height: 265px; width: 399px;" src="<?php echo base_url('front_assets/') ?>images/Capture2.png"></div>
                                               </div>
                                               <div style="padding-top: 10px;" class="row vertical-align-middle">
-                                                  <div style=" " class="col-md-12 col-sm-12 col-xs-12 sm-margin-30px-bottom sm-text-center wow fadeInDown vertical-align-middle"><img src="<?php echo base_url('front_assets/') ?>images/Capture2.png"></div>
+                                                  <div style=" " class="col-md-12 col-sm-12 col-xs-12 sm-margin-30px-bottom sm-text-center wow fadeInDown vertical-align-middle"><img style="height: 265px; width: 399px;" src="<?php echo base_url('front_assets/') ?>images/Capture2.png"></div>
                                               </div>
                                           </div>
+                                      </div>
                                       </div>
                                   </section>
                                 </div>
@@ -164,16 +183,36 @@
                                     <input value="Single Images" type="text">
                                 </div>
                                 <div class="view">
-                                    <section class="wow fadeIn no-padding-top" contenteditable="true">
+                                    
+                                  <section contenteditable="true" class="wow fadeIn no-padding-top top-space" style="visibility: visible;animation-name: fadeIn;margin-top: -65px;">
                                       <div class="container-fluid">
 
-                                          <div class="row">
-                                              <div class="col-lg-8 col-md-12 center-col text-center margin-35px-bottom xs-margin-15px-bottom wow fadeInUp">
-                                                  <img src="<?php echo base_url('front_assets/') ?>images/360371448.jpg" class="width-100">
+                                            <div class="row">
+                                              <!-- start product gallery item -->   
+                                              <!-- end product gallery item -->
+                                              <!-- start product gallery item -->
+                                              <div class="col-lg-8 col-md-12 center-col text-center margin-35px-bottom xs-margin-35px-bottom wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                                                  <img src="<?php echo base_url('front_assets/') ?>images/hubco.jpg" class="width-100" alt="" data-no-retina="">
                                               </div>
-                                              
+                                              <!-- end product gallery item -->
+                                              <!-- start product gallery item -->
+                                              <div class="col-lg-8 col-md-12 center-col text-center margin-35px-bottom xs-margin-35px-bottom wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                                                  <img src="<?php echo base_url('front_assets/') ?>images/hubco.jpg" class="width-100" alt="" data-no-retina="">
+                                              </div>
+                                              <!-- end product gallery item -->
+                                              <!-- start product gallery item -->
+                                              <div class="col-lg-8 col-md-12 center-col text-center margin-35px-bottom xs-margin-35px-bottom wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                                                  <img src="<?php echo base_url('front_assets/') ?>images/hubco.jpg" class="width-100" alt="" data-no-retina="">
+                                              </div>
+                                              <!-- end product gallery item -->
+                                              <!-- start product gallery item -->
+                                             <div class="col-lg-8 col-md-12 center-col text-center wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                                                 <img src="<?php echo base_url('front_assets/') ?>images/hubco.jpg" class="width-100" alt="" data-no-retina="">
+                                             </div>
+                                              <!-- end product gallery item -->
                                           </div>
-                                      </div>
+                                      </div> 
+                                      
                                   </section>
                                 </div>
                             </div>
@@ -183,7 +222,7 @@
                                     <input value="Content Box" type="text">
                                 </div>
                                 <div class="view">
-                                  <section class="parallax wow fadeIn" data-stellar-background-ratio="0.2" style="background-image:url('<?php echo base_url('front_assets/') ?>images/single-project-03-img12.jpg');">
+                                  <section class="top-space parallax wow fadeIn" data-stellar-background-ratio="0.2" style="background-image:url('<?php echo base_url('front_assets/') ?>images/single-project-03-img12.jpg');">
                                       <div class="container" contenteditable="true">
                                           <div class="row">
                                               <div class="col-lg-8 center-col display-table extra-small-screen text-center col-md-8 xs-padding-15px-lr">
@@ -209,7 +248,7 @@
                 <!-- end demo -->
                 <!--/span-->
                 <div id="download-layout">
-                    <div class="container-fluid"></div>
+                    <div class=""></div>
                 </div>
             </div>
             <!--/row-->

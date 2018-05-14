@@ -43,9 +43,9 @@ class Portfolio extends MY_Controller
         $data['user_id']         = $this->session->userdata('user_id');
         $config['upload_path']   = './uploads/';
         $config['allowed_types'] = 'png|jpg|jpeg|gif';
-        $config['max_size']      = 1000;
-        $config['max_width']     = 1024;
-        $config['max_height']    = 768;
+        $config['max_size']      = 5000;
+        $config['max_width']     = 5024;
+        $config['max_height']    = 4768;
         
         $this->load->library('upload', $config);
         
@@ -83,9 +83,9 @@ class Portfolio extends MY_Controller
         unset($data['id']);
         $config['upload_path']   = './uploads/';
         $config['allowed_types'] = 'png|jpg|jpeg|gif';
-        $config['max_size']      = 1000;
-        $config['max_width']     = 1024;
-        $config['max_height']    = 768;
+        $config['max_size']      = 5000;
+        $config['max_width']     = 5024;
+        $config['max_height']    = 4768;
         
         $this->load->library('upload', $config);
         
@@ -124,9 +124,9 @@ class Portfolio extends MY_Controller
     {
     	$config['upload_path']   = './uploads/';
         $config['allowed_types'] = 'png|jpg|jpeg|gif';
-        $config['max_size']      = 1000;
-        $config['max_width']     = 1024;
-        $config['max_height']    = 768;
+        $config['max_size']      = 5000;
+        $config['max_width']     = 5024;
+        $config['max_height']    = 4768;
         
         $this->load->library('upload', $config);
         $data = array();
@@ -134,5 +134,23 @@ class Portfolio extends MY_Controller
             $data['Image'] = '/uploads/' . $this->upload->data('file_name');
         }
         echo json_encode($data);
+    }
+
+    public function edit_template($id,$template)
+    {
+        if ($this->permission['edit'] == '0') {
+            redirect('admin/home');
+        }
+        if ($this->input->post()) {
+            $data = $this->input->post();
+            $this->Portfolio_model->update('portfolio', $data, array('id' => $id));
+            redirect('admin/portfolio');
+        }
+        $this->data['title']                    = 'Edit Portfolio';
+        $this->data['portfolio']                = $this->Portfolio_model->get_row_single('portfolio', array(
+            'id' => $id
+        ));
+        //print_r($this->data['portfolio']);die;
+        $this->load->view('admin/portfolio/edit_template'.$template, $this->data);
     }
 }

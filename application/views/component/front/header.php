@@ -46,8 +46,8 @@
     <!--[if IE]>
             <script src="js/html5shiv.js"></script>
         <![endif]-->
-    <style type="text/css">
-        .buy-theme.alt-font.sm-display-none {
+<style type="text/css">
+.buy-theme.alt-font.sm-display-none {
             display: none;
         }
 
@@ -110,30 +110,7 @@
             }
         }
 
-        .portfolio-icon {
-            display: none !important;
-        }
 
-        .portfolio-grid .grid-item figure img {
-            -ms-filter: grayscale(1);
-            -webkit-filter: grayscale(1);
-            -moz-filter: grayscale(1);
-            -o-filter: grayscale(1);
-            filter: grayscale(1);
-            -webkit-transition: all 350ms ease-in-out;
-            -moz-transition: all 350ms ease-in-out;
-            transition: all 350ms ease-in-out;
-            transform-style: preserve-3d;
-        }
-
-        .portfolio-grid .grid-item figure:hover img {
-            -ms-filter: grayscale(0);
-            -webkit-filter: grayscale(0);
-            -moz-filter: grayscale(0);
-            -o-filter: grayscale(0);
-            filter: grayscale(0);
-            opacity: 1 !important;
-        }
 
         .bg-deep-pink {
             background: none;
@@ -191,19 +168,19 @@
                 right: 35px;
             }
         }
-    </style>
+</style>
 </head>
 
 <body>
     <!-- start header -->
     <header>
         <!-- start navigation -->
-        <nav class="navbar navbar-default bootsnav navbar-fixed-top header-light bg-transparent white-link" style="background-color: #ffffff00;">
+        <nav class="navbar navbar-default bootsnav navbar-fixed-top header-light bg-transparent white-link" style="background-color: #ffffff00; box-shadow: 0 0px 10px -10px rgba(0, 0, 0, 0.6);">
             <div class="container nav-header-container">
                 <div class="row">
                     <!-- start logo -->
                     <div class="col-md-2 col-xs-5">
-                        <a href="<?php echo base_url() ?>" title="Pofo" class="logo"><img src="<?php echo base_url() ?>front_assets/images/logo-d.png" data-at2x="images/logo@2x.png" class="logo-dark" alt="Pofo"><img src="<?php echo base_url() ?>front_assets/images/logo-d.png" data-at2x="images/logo-white@2x.png" alt="Pofo" class="logo-light default"></a>
+                        <a href="<?php echo base_url() ?>" title="Pofo" class="logo"><img src="<?php echo base_url() ?>front_assets/images/d_logo.png" data-at2x="<?php echo base_url() ?>front_assets/images/d_logo.png" class="logo-dark" alt="Pofo"><img src="<?php echo base_url() ?>front_assets/images/logo-d.png" data-at2x="<?php echo base_url() ?>front_assets/images/d_logo.png" alt="Pofo" class="logo-light default"></a>
                     </div>
                     <!-- end logo -->
                     <div class="col-md-2" style="height: 65px; visibility: hidden;">
@@ -239,7 +216,7 @@
             </div>
         </nav>
         <!-- end navigation -->
-        <di class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
+        <div class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
             <button class="close-button-menu side-menu-close" id="close-pushmenu"></button>
             <div class="display-table padding-twelve-all height-100 width-100 text-center">
                 <div class="display-table-cell vertical-align-top padding-70px-top position-relative">

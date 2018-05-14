@@ -2844,7 +2844,7 @@ header.sticky nav.navbar.brand-center ul.nav > li > a {padding: 20px; margin: 0 
 /* gutter type */
 .portfolio-grid.gutter-very-small li, .blog-grid.gutter-very-small li {padding: 3px 3px }
 .portfolio-grid.gutter-small li, .blog-grid.gutter-small li {padding:5px 5px }
-.portfolio-grid.gutter-medium li, .blog-grid.gutter-medium li {padding:7px 7px }
+/*.portfolio-grid.gutter-medium li, .blog-grid.gutter-medium li {padding:7px 7px }*/
 .portfolio-grid.gutter-large li, .blog-grid.gutter-large li {padding:10px 10px; }
 .portfolio-grid.gutter-extra-large li, .blog-grid.gutter-extra-large li {padding:20px;}
 .portfolio-grid.gutter-extra-large, .blog-grid.gutter-extra-large {margin:0 -20px;}

@@ -57,11 +57,11 @@
                                         <div class="col-sm-9">
                                             <div class="radio radio-info radio-inline">
                                                 <input type="radio"  name="template" id="inlineCheckbox1" value="1" checked="">
-                                                <label for="inlineCheckbox1">Templata 1</label>
+                                                <label for="inlineCheckbox1">Template 1</label>
                                             </div>
                                             <div class="radio radio-info radio-inline">
                                                 <input type="radio"  name="template" id="inlineCheckbox2" value="2">
-                                                <label for="inlineCheckbox2">Templata 2</label>
+                                                <label for="inlineCheckbox2">Template 2</label>
                                             </div>
                                         </div>
 
