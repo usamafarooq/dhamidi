@@ -191,22 +191,24 @@
                                               <!-- start product gallery item -->   
                                               <!-- end product gallery item -->
                                               <!-- start product gallery item -->
-                                              <div class="col-lg-8 col-md-12 center-col text-center margin-35px-bottom xs-margin-15px-bottom wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                                              <div class="col-lg-8 col-md-12 center-col text-center margin-35px-bottom xs-margin-35px-bottom wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
                                                   <img src="<?php echo base_url('front_assets/') ?>images/hubco.jpg" class="width-100" alt="" data-no-retina="">
                                               </div>
                                               <!-- end product gallery item -->
                                               <!-- start product gallery item -->
-                                              <div class="col-lg-8 col-md-12 center-col text-center margin-35px-bottom xs-margin-15px-bottom wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                                              <div class="col-lg-8 col-md-12 center-col text-center margin-35px-bottom xs-margin-35px-bottom wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
                                                   <img src="<?php echo base_url('front_assets/') ?>images/hubco.jpg" class="width-100" alt="" data-no-retina="">
                                               </div>
                                               <!-- end product gallery item -->
                                               <!-- start product gallery item -->
-                                              <div class="col-lg-8 col-md-12 center-col text-center margin-35px-bottom xs-margin-15px-bottom wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                                              <div class="col-lg-8 col-md-12 center-col text-center margin-35px-bottom xs-margin-35px-bottom wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
                                                   <img src="<?php echo base_url('front_assets/') ?>images/hubco.jpg" class="width-100" alt="" data-no-retina="">
                                               </div>
                                               <!-- end product gallery item -->
                                               <!-- start product gallery item -->
-                                             
+                                             <div class="col-lg-8 col-md-12 center-col text-center wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                                                 <img src="<?php echo base_url('front_assets/') ?>images/hubco.jpg" class="width-100" alt="" data-no-retina="">
+                                             </div>
                                               <!-- end product gallery item -->
                                           </div>
                                       </div> 
