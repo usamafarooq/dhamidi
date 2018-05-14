@@ -221,7 +221,7 @@
                                         </div>
                                     </div>
                                         <figcaption>
-                                           <h5 style="font-size: 23px;left: 120px;text-shadow: 0px 2px #000;position: absolute;bottom: 5px;color: #fbd60f;">MOBILINK</h5>
+                                           <h5 style="font-size: 23px;left: 120px;text-shadow: 0px 2px #000;position: absolute;bottom: 5px;color: #fbd60f;"><?php echo $p['Name'] ?></h5>
                                             
                                         </figcaption>
                                 </figure>
