@@ -277,7 +277,7 @@
     <!-- start header -->
     <header>
         <!-- start navigation -->
-        <nav class="navbar navbar-default bootsnav navbar-fixed-top header-light bg-transparent white-link" style="background-color: #ffffff00; box-shadow: 0 0px 10px -10px rgba(0, 0, 0, 0.6);">
+        <nav class="navbar navbar-default bootsnav navbar-fixed-top header-light bg-transparent white-link" style="background-color: #ffffff00; box-shadow: 0 5px 5px -10px rgba(0, 0, 0, 0.6);">
             <div class="container nav-header-container">
                 <div class="row">
                     <!-- start logo -->
