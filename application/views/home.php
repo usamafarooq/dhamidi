@@ -237,8 +237,10 @@
     </section>
 <script>
     $(document).ready(function() {
+        $('body').css("overflow-y", "hidden");
         $('video').on('ended', function() {
             window.location.replace("#down-section");
+            $('body').css("overflow-y", "none");
             $('#home').fadeOut( 5000, function() {
     // Animation complete.
   });
