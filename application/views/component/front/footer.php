@@ -176,7 +176,9 @@
     $(document).ready(function() {
         $('video').on('ended', function() {
             window.location.replace("#down-section");
-            $('#home').hide();
+            $('#home').fadeOut(3000, function() {
+    // Animation complete.
+  });
         });
     });
 </script>
