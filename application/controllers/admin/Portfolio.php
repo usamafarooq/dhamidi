@@ -135,4 +135,22 @@ class Portfolio extends MY_Controller
         }
         echo json_encode($data);
     }
+
+    public function edit_template($id,$template)
+    {
+        if ($this->permission['edit'] == '0') {
+            redirect('admin/home');
+        }
+        if ($this->input->post()) {
+            $data = $this->input->post();
+            $this->Portfolio_model->update('portfolio', $data, array('id' => $id));
+            redirect('admin/portfolio');
+        }
+        $this->data['title']                    = 'Edit Portfolio';
+        $this->data['portfolio']                = $this->Portfolio_model->get_row_single('portfolio', array(
+            'id' => $id
+        ));
+        //print_r($this->data['portfolio']);die;
+        $this->load->view('admin/portfolio/edit_template'.$template, $this->data);
+    }
 }
