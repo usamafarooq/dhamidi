@@ -169,6 +169,108 @@
             }
         }
 </style>
+<style type="text/css">
+    /*******************************
+* MODAL AS LEFT/RIGHT SIDEBAR
+* Add "left" or "right" in modal parent div, after class="modal".
+* Get free snippets on bootpen.com
+*******************************/
+    
+    .modal.right .modal-dialog {
+        position: fixed;
+        margin: auto;
+        width: 320px;
+        height: 100%;
+        -webkit-transform: translate3d(0%, 0, 0);
+            -ms-transform: translate3d(0%, 0, 0);
+             -o-transform: translate3d(0%, 0, 0);
+                transform: translate3d(0%, 0, 0);
+    }
+
+    .modal.left .modal-content,
+    .modal.right .modal-content {
+        height: 100%;
+        overflow-y: auto;
+    }
+    
+    .modal.left .modal-body,
+    .modal.right .modal-body {
+        padding: 15px 15px 80px;
+    }
+
+/*Left*/
+    .modal.left.fade .modal-dialog{
+        left: -320px;
+        -webkit-transition: opacity 0.3s linear, left 0.3s ease-out;
+           -moz-transition: opacity 0.3s linear, left 0.3s ease-out;
+             -o-transition: opacity 0.3s linear, left 0.3s ease-out;
+                transition: opacity 0.3s linear, left 0.3s ease-out;
+    }
+    
+    .modal.left.fade.in .modal-dialog{
+        left: 0;
+    }
+        
+/*Right*/
+    .modal.right.fade .modal-dialog {
+        right: -320px;
+        -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+           -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+             -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+                transition: opacity 0.3s linear, right 0.3s ease-out;
+    }
+    
+    .modal.right.fade.in .modal-dialog {
+        right: 0;
+    }
+
+/* ----- MODAL STYLE ----- */
+    .modal-content {
+        border-radius: 0;
+        border: none;
+    }
+
+    .modal-header {
+        border-bottom-color: #EEEEEE;
+        background-color: #FAFAFA;
+    }
+
+/* ----- v CAN BE DELETED v ----- */
+
+
+.demo {
+    padding-top: 60px;
+    padding-bottom: 110px;
+}
+
+.btn-demo {
+    margin: 15px;
+    padding: 10px 15px;
+    border-radius: 0;
+    font-size: 16px;
+    background-color: #FFFFFF;
+}
+
+.btn-demo:focus {
+    outline: 0;
+}
+
+.demo-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+    background-color: #212121;
+    text-align: center;
+}
+
+.demo-footer > a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+}
+</style>
 </head>
 
 <body>
@@ -187,78 +289,77 @@
 
                     </div>
                     <div class="col-md-2 col-xs-5 width-auto">
-                        <div class="header-searchbar">
-                            <!-- search input-->
-                            <form id="search-header" method="post" action="http://www.themezaa.com/html/pofo/search-result.html" name="search-header" class="mfp-hide search-form-result">
-                                <div class="search-form position-relative">
-                                    <button type="submit" class="fa fa-search close-search search-button"></button>
-                                    <input type="text" name="search" class="search-input" placeholder="Enter your keywords..." autocomplete="off">
-                                </div>
-                            </form>
-                        </div>
-                        <div id="myNav" class="overlay">
-                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                            <div class="overlay-content">
-                                <a href="#">About</a>
-                                <a href="#">Services</a>
-                                <a href="#">Clients</a>
-                                <a href="#">Contact</a>
-                            </div>
-                        </div>
-
-                        <span style="font-size:30px;cursor:pointer; color: black;" onclick="openNav()">&#9776;</span>
-
-                        <div class="heder-menu-button">
-
+                           
+                        <div class="heder-menu-button " >
+                            <button class="navbar-toggle mobile-toggle right-menu-button" type="button" id="showRightPush">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            </button>
                         </div>
                     </div>
                 </div>
             </div>
         </nav>
         <!-- end navigation -->
-        <div class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
-            <button class="close-button-menu side-menu-close" id="close-pushmenu"></button>
-            <div class="display-table padding-twelve-all height-100 width-100 text-center">
-                <div class="display-table-cell vertical-align-top padding-70px-top position-relative">
-                    <div class="row">
-
+        <div class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s2">
+            <button style="z-index: 1" class="close-button-menu side-menu-close" id="close-pushmenu"></button>
+            <div class="display-table  height-100 width-100 text-center">
+                <div class="display-table-cell  vertical-align-top padding-70px-top position-relative">
+                    <div class="row" >
                         <div class="col-lg-4">
-                            <ul id="accordion" class="nav navbar-nav navbar-left no-margin alt-font text-normal" data-in="fadeIn" data-out="fadeOut">
-                                <!-- start menu item -->
-                                <li class="dropdown megamenu-fw">
-                                    <a href="javascript:void(0);">Home</a><i class="fa fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
-                                    <!-- start sub menu -->
+                            <div class="container" style="margin-right: 272px;">
+                                <div class="row">
 
-                                </li>
-                                <li class="dropdown megamenu-fw">
-                                    <a href="javascript:void(0);">Home</a><i class="fa fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
-                                    <!-- start sub menu -->
+                                    <div class="col-md-3"  style="margin-left: 40px;">
+                                        <img src="<?php echo base_url() ?>front_assets/images/d_logo.png" style="    margin-bottom: 26px;">
 
-                                </li>
-                                <li class="dropdown megamenu-fw">
-                                    <a href="javascript:void(0);">Home</a><i class="fa fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
-                                    <!-- start sub menu -->
+                                        <!-- Modal -->
+                                        <div class="modal right fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
+                                            <div class="modal-dialog" role="document">
+                                                <div class="modal-content">
 
-                                </li>
-                                <li class="dropdown megamenu-fw">
-                                    <a href="javascript:void(0);">Home</a><i class="fa fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
-                                    <!-- start sub menu -->
+                                                    <div class="modal-header">
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                        <h4 class="modal-title" id="myModalLabel2">Services</h4>
+                                                    </div>
 
-                                </li>
-                                <li class="dropdown megamenu-fw">
-                                    <a href="javascript:void(0);">Home</a><i class="fa fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
-                                    <!-- start sub menu -->
+                                                    <div class="modal-body">
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                                        </p>
+                                                    </div>
 
-                                </li>
+                                                </div>
+                                                <!-- modal-content -->
+                                            </div>
+                                            <!-- modal-dialog -->
+                                        </div>
+                                        <!-- modal -->
 
-                            </ul>
+                                        <ul class="nav nav-pills nav-stacked">
+                                            <li class="active"><a href="#"><i class="fa fa-home fa-fw"></i>Home</a></li>
+                                            <li class="onen_services" data-toggle="modal" data-target="#myModal2"><a href="#"><i class="fa fa-list-alt fa-fw"></i>Services</a></li>
+                                            <li><a href="#"><i class="fa fa-file-o fa-fw"></i>Pages</a></li>
+                                            <li><a href="#"><i class="fa fa-bar-chart-o fa-fw"></i>Charts</a></li>
+                                            <li><a href="#"><i class="fa fa-table fa-fw"></i>Table</a></li>
+                                            <li><a href="#"><i class="fa fa-tasks fa-fw"></i>Forms</a></li>
+                                            <li><a href="#"><i class="fa fa-calendar fa-fw"></i>Calender</a></li>
+                                            <li><a href="#"><i class="fa fa-book fa-fw"></i>Library</a></li>
+                                            <li><a href="#"><i class="fa fa-pencil fa-fw"></i>Applications</a></li>
+                                            <li><a href="#"><i class="fa fa-cogs fa-fw"></i>Settings</a></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
                         </div>
 
                     </div>
                 </div>
             </div>
 
-            </div>
+        </div>
             <!-- end navigation -->
     </header>
     <!-- end header -->

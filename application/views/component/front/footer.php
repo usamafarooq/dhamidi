@@ -174,14 +174,20 @@
 </body>
 <script>
     $(document).ready(function() {
+         $('body').css("overflow-y", "hidden");
         $('video').on('ended', function() {
             window.location.replace("#down-section");
+             $('body').css("overflow-y", "visible");
             $('#home').fadeOut(3000, function() {
     // Animation complete.
   });
         });
+       
     });
 </script>
+
+
+
 <script>
     function openNav() {
         document.getElementById("myNav").style.width = "100%";
@@ -190,6 +196,30 @@
     function closeNav() {
         document.getElementById("myNav").style.width = "0%";
     }
+</script>
+<script type="text/javascript">
+    !function ($) {
+    
+    // Le left-menu sign
+    /* for older jquery version
+    $('#left ul.nav li.parent > a > span.sign').click(function () {
+        $(this).find('i:first').toggleClass("icon-minus");
+    }); */
+    
+    $(document).on("click","#left ul.nav li.parent > a > span.sign", function(){          
+        $(this).find('i:first').toggleClass("icon-minus");      
+    }); 
+    
+    // Open Le current menu
+    $("#left ul.nav li.parent.active > a > span.sign").find('i:first').addClass("icon-minus");
+    $("#left ul.nav li.current").parents('ul.children').addClass("in");
+
+}(window.jQuery);
+</script>
+<script type="text/javascript">
+    $('.onen_services').click(function () {
+        $('#close-pushmenu').click();
+    });
 </script>
 
 </html>
